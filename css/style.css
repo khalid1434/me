@@ -1,0 +1,410 @@
+
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    display: block;
+    
+}
+
+#header{
+    
+           background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rN0W64K4ipau8gxv/light-gray-background-soft-fifteen-shades-of-grey-smooth-background-with-the-addition-of-a-bit-of-noise_r4_eswq9yx_thumbnail-full01.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#shape1{
+    
+       background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rN0W64K4ipau8gxv/light-gray-background-soft-fifteen-shades-of-grey-smooth-background-with-the-addition-of-a-bit-of-noise_r4_eswq9yx_thumbnail-full01.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+	
+
+.de{
+	 font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    
+    line-height: 1.4;
+    
+    color: #006666;
+    
+	
+}
+
+body{
+    
+    
+    background-color: lightblue;
+
+}
+
+.title{
+    
+     font-weight: 600;
+     font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+.des{
+	 font-family: 'Lucida Grande';font-size: 16px;
+   
+	
+}
+.clear-fix {
+    overflow: auto;
+}
+
+#projects{
+	font-family: 'Lucida Grande';font-size: 20px;
+    
+	
+}
+
+
+.education-entry,
+.course-entry,
+.objective-entry,
+.work-entry,
+.skills-entry,
+.project-entry {
+    padding: 0 45px 0 45px;
+   margin-top: 35px;
+    margin-bottom: 10px;
+    
+}
+
+
+.work-entry,
+.all1{
+    
+    padding-bottom: 30px;
+    
+    
+}
+
+.all2{
+    
+    padding-top: 0px;
+
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: #000;
+    line-height: 48px;
+    display: inline;
+}
+.white1{
+    
+    color: #fff;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    line-height: 29px;
+    padding: 10px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    padding: 10px 5%;
+}
+
+.block1{
+    
+    display: block;
+}
+
+
+.date-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: left;
+    
+}
+
+.location-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: right;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    line-height: 21px;
+}
+
+
+a {
+    color: #000;
+   text-decoration: none;
+    margin-top: 10px;
+/*    display: block;*/
+}
+
+.bl{
+    
+    display: block;
+}
+
+.subsec{
+    
+    background-color: gainsboro;
+    padding: 20px;
+    
+}
+
+
+.welcome-message {
+    font-style: italic;
+    font-size: 18px;
+    color: #f3f3f3;
+    line-height: 28px;
+}
+
+
+
+#skills-h3 {
+    color: #000;
+    display: none;
+}
+
+.orange {
+    background-color: dodgerblue;
+}
+
+.orange-text {
+    color: #000;
+}
+
+.white-text {
+    font-weight: bold;
+    color: gray;
+}
+
+.bluebackground{
+    
+    background-color: dodgerblue;
+    border-radius: 25px;
+}
+
+.bluebackgroundDark{
+    
+    background-color: dodgerblue;
+}
+
+.nomargin{
+    
+    margin-top: 0;
+}
+.gray {
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+
+/*.dark-gray {
+    background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/WgeRenM/videoblocks-blue-and-green-light-colored-streaks-looping-cg-abstract-animated-background_rwzrv55atg_thumbnail-full01.png");
+}*/
+
+h2{
+    
+    color: red;
+}
+
+.center1{
+	
+	padding-left: 340px;
+}
+
+/* TODO: Replace with image later */
+#header {
+    background-color: #fff;
+}
+
+.sh{
+    
+    font-family: arial;
+    color: #4f284b;
+}
+.sh:hover{
+    
+    text-decoration: underline;
+    color: #262626;
+}
+
+img{
+    
+    border-radius: 25px;
+}
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.center-content {
+    padding: 2.5% 5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.biopic {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+
+img {
+    padding: 20px;
+}
+
+span {
+    padding: 5px;
+}
+
+#lets-connect {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+    #lets-connect {
+        margin-top: 5%;
+    };
+}
+
+@media only screen and (max-width:900px) {
+    .biopic {
+        width: 175px;
+    };
+}
+
+@media only screen and (max-width: 750px) {
+    #lets-connect {
+        margin-top: 10%;
+    }
+
+    .biopic {
+        width: 150px;
+    }
+
+    .welcome-message {
+        display: none;
+    };
+}
+
+#map {
+    display: block;
+    height: 100%;
+    margin: 0 5%;
+}
+
+#mapDiv {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+    #skills-h3,
+  .biopic {
+        display: block;
+    };
+}
+
+/*
+.bg{
+    background-image: url("https://st2.depositphotos.com/1000553/8415/v/950/depositphotos_84151264-stock-illustration-transparent-soft-futuristic-satin-border.jpg");
+    background-repeat: no-repeat;
+    
+    
+    
+    border-radius: 25px;
+    
+        
+    
+}
+*/
+
+#skills1,
+.course-entry{
+    
+    padding-bottom: 45px;
+    margin-top: 0;
+    
+    
+    
+    width: 100%;
+    
+    
+    
+    
+}
+
+
+
+
